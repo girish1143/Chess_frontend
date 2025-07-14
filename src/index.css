@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chess piece font styling */
+.font-chess {
+  font-family: 'Arial Unicode MS', 'Segoe UI Symbol', 'Apple Symbols', 'Noto Color Emoji', sans-serif;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Ensure chess pieces are visible */
+.chess-piece {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: clamp(2rem, 8vw, 4rem);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+
